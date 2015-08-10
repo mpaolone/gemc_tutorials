@@ -1,0 +1,9 @@
+<gcard>
+	
+	<detector name="ftof" factory="TEXT" />
+	<option name="geometry" value="1400x1200"/>
+	
+	<option name="BEAM_P" value="proton, 1.0*GeV, 20*deg, 10*deg"/>
+	<option name="SIGNALVT" value="ftof_p1a, ftof_p1b"/>
+	<option name="OUTPUT" value="txt, out.txt"/>
+</gcard>
