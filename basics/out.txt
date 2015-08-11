@@ -1,5 +1,6 @@
    Simulation Conditions, TAG 5:
    > ftof  is loaded with factory TEXT, variation main and run number 1
+   > option ACTIVEFIELDS none
    > option ALIGN_ZAXIS no
    > option ALLRAWS no
    > option BANK_VERBOSITY 1
@@ -26,6 +27,7 @@
    > option G4TRACK_VERBOSITY 0
    > option GEN_VERBOSITY 0
    > option GEO_VERBOSITY 1
+   > option GUIPOS (150, 150)
    > option GUI_VERBOSITY 1
    > option HALL_DIMENSIONS 20*m, 20*m, 20*m
    > option HALL_FIELD no
@@ -36,6 +38,7 @@
    > option INPUT_GEN_FILE gemc_internal
    > option INTEGRATEDDGT yes
    > option INTEGRATEDRAW no
+   > option LOG_MSG 0
    > option LOG_VERBOSITY 0
    > option LUMI2_EVENT 0, 2*ns
    > option LUMI2_P proton, 50*GeV, 175*deg, 180*deg
@@ -126,3 +129,41 @@
    > parameter ftof.panel2.x.p1 118.831
    > parameter ftof.panel2.z.p0 5544.06
    > parameter ftof.panel2.z.p1 -188.694
+ --- Header Bank -- 
+    - (10, 1) time:	Tue, 08.11.2015 09:44:33
+    - (10, 4) beamPol:	0
+    - (10, 2) evn:	1
+    - (10, 3) evn_type:	-1
+    - (10, 5) var1:	0
+    - (10, 6) var2:	0
+    - (10, 7) var3:	0
+    - (10, 8) var4:	0
+    - (10, 9) var5:	0
+    - (10, 10) var6:	0
+    - (10, 11) var7:	0
+    - (10, 12) var8:	0
+ --- End of Header Bank -- 
+ --- ftof_p1a  (1000, 0) ---- 
+   -- integrated digitized bank  (1002, 0) -- 
+    - (1002, 1) sector:	1	
+    - (1002, 2) paddle:	12	
+    - (1002, 3) ADCL:	754	
+    - (1002, 4) ADCR:	1142	
+    - (1002, 5) TDCL:	3633	
+    - (1002, 6) TDCR:	3354	
+    - (1002, 99) hitn:	1	
+   -- End of integrated digitized bank.
+ --- ftof_p1b  (1100, 0) ---- 
+   -- integrated digitized bank  (1102, 0) -- 
+    - (1102, 1) sector:	1	
+    - (1102, 2) paddle:	33	
+    - (1102, 3) ADCL:	1013	
+    - (1102, 4) ADCR:	1463	
+    - (1102, 5) TDCL:	3584	
+    - (1102, 6) TDCR:	3312	
+    - (1102, 99) hitn:	1	
+   -- End of integrated digitized bank.
+ --- Generated Particles Bank -- 
+    - Particle 1 pid: 2212   -  mom: (336.824,59.3912,939.693) MeV   -  vert: (0,0,0) mm
+    - Hit >na< Has 0 hit    - Hit >na< Has 0 hit --- End of Generated Particles Bank -- 
+ ---- End of Event  ---- 
